@@ -1,0 +1,20 @@
+[main] struct_ktp 1000 (0) exception: trapped!
+[main] struct_ktp 1000 (0) exception: code 0xC0000005 at 0x401518
+[main] struct_ktp 1000 (0) exception: ax 0x41DF82 bx 0x41E09C cx 0x41DF82 dx 0xFFFFFE32
+[main] struct_ktp 1000 (0) exception: si 0x41E09C di 0xFFFFFEE6 bp 0x247FEE4 sp 0x247FE98
+[main] struct_ktp 1000 (0) exception: exception is: STATUS_ACCESS_VIOLATION
+[main] struct_ktp 1000 (0) stack: Stack trace:
+[main] struct_ktp 1000 (1) stack: frame 0: sp = 0x247F8A8, pc = 0x6100A2C3
+[main] struct_ktp 1000 (0) stack: frame 1: sp = 0x247F8E4, pc = 0x76FA5062
+[main] struct_ktp 1000 (0) stack: frame 2: sp = 0x247F908, pc = 0x76FA5034
+[main] struct_ktp 1000 (0) stack: frame 3: sp = 0x247F9D0, pc = 0x76F92936
+[main] struct_ktp 1000 (0) stack: frame 4: sp = 0x247FEE4, pc = 0x4011BC
+[main] struct_ktp 1000 (0) stack: frame 5: sp = 0x247FEEC, pc = 0x61004402
+[main] struct_ktp 1000 (0) stack: frame 6: sp = 0x247FF38, pc = 0x61004420
+[main] struct_ktp 1000 (0) stack: frame 7: sp = 0x247FF44, pc = 0x41926A
+[main] struct_ktp 1000 (0) stack: frame 8: sp = 0x247FF54, pc = 0x40103A
+[main] struct_ktp 1000 (0) stack: frame 9: sp = 0x247FF70, pc = 0x76030419
+[main] struct_ktp 1000 (0) stack: frame 10: sp = 0x247FF80, pc = 0x76F8662D
+[main] struct_ktp 1000 (0) stack: frame 11: sp = 0x247FFDC, pc = 0x76F865FD
+[main] struct_ktp 1000 (0) stack: frame 12: sp = 0x247FFEC, pc = 0x0
+[main] struct_ktp 1000 (0) stack: End of stack trace
